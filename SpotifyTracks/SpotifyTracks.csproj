@@ -6,6 +6,15 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
+    <PackageReference Include="SpotifyAPI.Web" Version="6.2.0" />
+    <PackageReference Include="Microsoft.Owin.Security.OAuth" Version="4.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OAuth" Version="2.2.0" />
+    <PackageReference Include="Owin.Security.Providers.Spotify" Version="2.26.0" />
+    <PackageReference Include="SpotifyAPI.Web.Auth" Version="6.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\Models\" />
+  </ItemGroup>
 </Project>
